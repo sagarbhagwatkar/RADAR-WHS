@@ -1,0 +1,74 @@
+pip install newspaper3k
+# Import requests, BeautifulSoup, pandas libraries to scrape websites
+import requests
+from bs4 import BeautifulSoup
+import pandas as pd
+# Import newspaper, Article, nltk libraries to extract info from scrapped websites
+import newspaper
+from newspaper import Article
+import nltk
+nltk.download('punkt')
+# Base URL of the search page
+base_url = "https://www.accpa.asn.au"
+search_component = "/?s=work+health+safety"
+
+# Send a GET request to get the first page
+response = requests.get(f"{base_url}{search_component}")
+soup = BeautifulSoup(response.text, 'html.parser')
+# Find the total number of pages
+pagination = soup.find('nav', class_='elementor-pagination')
+pages = pagination.find_all('a')[-1].get_text()[-1:]
+total_pages = int(pages)
+total_pages 
+# List to store all href links
+all_href_links = []
+
+# Loop through each page
+for page_num in range(1, total_pages + 1):
+    # Construct URL for the current page
+    url = f"{base_url}/page/{page_num}{search_component}"
+    
+    # Send a GET request
+    response = requests.get(url)
+    soup = BeautifulSoup(response.text, 'html.parser')
+    
+    # Find all <h3> tags
+    headings = soup.find_all('h3')
+
+    # Extract href links
+    for heading in headings:
+        link = heading.find('a')
+        if link:
+            all_href_links.append(link['href'])
+
+# Print the list of href links
+all_href_links
+# Extract data of headline, content, date and reference url
+result = []
+
+for link in all_href_links:
+  #The Basics of downloading the article to memory
+  article = Article(f"{link}")
+  article.download()
+  article.parse()
+  article.nlp()
+
+  headline = article.title # Gives the title
+  
+  content = article.text #Gives the content of the article
+  
+  date = article.publish_date #Gives the date the article was published
+
+  result.append([headline, content, date, f"{link}"])
+
+articles_df = pd.DataFrame(result, columns=['Headline', 'Content', 'Date', 'Reference URL'])
+articles_df
+from google.colab import drive
+
+# Mount Google Drive
+drive.mount('/content/drive')
+
+# Define the file path for the CSV file on your Google Drive
+file_path = "/content/drive/My Drive/Anh Le/MDSI/Sem 4/Internship/Working files/export file/articles_accpa.csv"
+# Save DataFrame to CSV file
+articles_df.to_csv(file_path, index=False)
