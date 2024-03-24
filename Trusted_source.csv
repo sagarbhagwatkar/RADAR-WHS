@@ -1,0 +1,72 @@
+﻿Source,Sector,Link,Search Keywords?,News/Media Link,Comments
+McKinsey & Co Australia,Consultant,https://www.mckinsey.com/au/overview ,Y,,
+Earnst & Young Australia,Consultant,https://www.ey.com/en_au,Y,,
+KPMG Australia,Consultant,https://kpmg.com/au/en/home.html,Y,,
+PwC Australia,Consultant,https://www.pwc.com.au/,Y,,
+Deloitte Australia,Consultant,https://www.deloitte.com/au/en.html,Y,,
+Bureau of Health Information,Data,https://www.bhi.nsw.gov.au/BHI_reports/healthcare_quarterly/Jan-Mar2023,N,https://www.bhi.nsw.gov.au/media,
+ACCI - Australian Chamber of Commerce and Industry,General Business association,https://www.australianchamber.com.au/,N,https://acci.com.au/news/,
+AI - Australian Industry Group,General Business association,https://www.aigroup.com.au/?gclid=EAIaIQobChMIx7uXkKql-wIVDJ1LBR2NcQCaEAAYASAAEgKvaPD_BwE&gclsrc=aw.ds,N,https://www.aigroup.com.au/news/,
+ISSA,Global,https://ww1.issa.int/,N,https://www.issa.int/news,
+ILO,Global,https://www.ilo.org/global/lang--en/index.htm,N,https://www.ilo.org/global/about-the-ilo/newsroom/news/lang--en/index.htm,
+WHO,Global,https://www.who.int/,N,https://www.who.int/news,
+World Economic Forum,Global,https://www.weforum.org/topics/employment-and-skills,N,https://www.weforum.org/agenda/employment-and-skills/,
+Trend atlas,Government,Trend Atlas,,no link,
+NHMRC,Government,https://www.nhmrc.gov.au/ ,N,https://www.nhmrc.gov.au/about-us/news-centre,
+AU Gov labour market,Government,https://labourmarketinsights.gov.au/,N,"the website is going to archive, refer to https://www.jobsandskills.gov.au/news",
+FairWork,Government,https://www.fairwork.gov.au/employment-conditions/awards/list-of-awards ,N,the website is used to get list of awards,
+ARC,Government,https://www.arc.gov.au/,N,https://www.arc.gov.au/news-publications/media/media-releases,
+Comcare,Government,https://www.comcare.gov.au/safe-healthy-work/research-evidence/emerging-evidence-alerts ,N,https://www.comcare.gov.au/about/news-events/news,this RSS feeds includes news and safety alert https://www.comcare.gov.au/about/news-events/rss_feeds
+Human Factors and Ergonomics Society of Australia,Industry Business association,https://www.ergonomics.org.au/,N,https://www.ergonomics.org.au/hfesa-news/,appended content link inside of some article
+ACIF - Australian Construction Industry Forum,Industry Business association,https://www.acif.com.au/,N,https://www.acif.com.au/acif-news,
+ACCPA - Aged and Community Care Providers Association,Industry Business association,https://www.accpa.asn.au/,N,https://www.accpa.asn.au/media-releases/,
+ACA - Australian Constructors Association,Industry Business association,https://www.constructors.com.au/,N,https://www.constructors.com.au/category/aca-news/,
+NSW Farmers Federation,Industry Business association,https://www.nswfarmers.org.au/,N,https://www.nswfarmers.org.au/NSWFA/NSWFA/Content/NewsEvents/News_Events.aspx?hkey=12dea0f0-7dc7-4122-a91e-75a95dc0ee9f,
+National Farmers Federation,Industry Business association,https://nff.org.au/,N,https://nff.org.au/media-centre/?_sft_category=media-release,
+Heath Care Workers Australia,Industry Business association,https://healthcareworkersaustralia.com/,?,https://healthcareworkersaustralia.com/lessons-learnings/,
+MBA - Masterbuilders Australia,Industry Business association,https://www.masterbuilders.com.au/Home,N,https://masterbuilders.com.au/newsroom/,
+MBA NSW,Industry Business association,https://www.mbansw.asn.au/,,https://www.mbansw.asn.au/work-health-and-safety,"only the e-circulars related, but it's blocked due to subcription"
+The Conversation,News outlet,https://theconversation.com/au/topics/work-health-and-safety-65677,Y,https://theconversation.com/au/topics/work-health-and-safety-65677,
+Work Cover Western Australia,Regulation,https://www.workcover.wa.gov.au/news/,N,https://www.workcover.wa.gov.au/news/,
+Safe Work Australia,Regulation,https://www.safeworkaustralia.gov.au/,N,https://www.safeworkaustralia.gov.au/media-centre/news,
+NIOSH,Regulation,https://www.cdc.gov/niosh/index.htm,Y,,https://www.cdc.gov/niosh/newsroom/default.html
+WorkSafe Queensland,Regulation,https://www.worksafe.qld.gov.au/,N,"https://www.worksafe.qld.gov.au/news-and-events/news
+https://www.worksafe.qld.gov.au/news-and-events/alerts",
+Work Safe Northern Territory,Regulation,https://worksafe.nt.gov.au/,N,"https://worksafe.nt.gov.au/forms-and-resources/news-and-events
+https://worksafe.nt.gov.au/forms-and-resources/safety-alerts",
+Safe Work South Australia,Regulation,https://www.safework.sa.gov.au/,N,"https://www.safework.sa.gov.au/news-and-alerts/news
+https://www.safework.sa.gov.au/news-and-alerts/safety-alerts",
+HSE UK,Regulation,https://www.hse.gov.uk/,?,,
+WorkSafe Victoria,Regulation,https://www.worksafe.vic.gov.au/,?,,
+Canadian Centre for OHS,Regulation,https://www.ccohs.ca/,N,https://www.ccohs.ca/newsroom/news_releases,
+Australia (Safework Australia data dashboard),Regulation,https://data.safeworkaustralia.gov.au/interactive-data ,,https://www.safeworkaustralia.gov.au/media-centre/news,
+Singapore Ministry of Manpower WHS,Regulation,https://www.mom.gov.sg/workplace-safety-and-health,?,,
+Japan,Regulation,https://www.mhlw.go.jp/english/,,,
+WorkSafe WA,Regulation,https://www.commerce.wa.gov.au/worksafe/,,https://www.commerce.wa.gov.au/announcements?field_announcement_division_tid=65,
+OSHA Europe,Regulation,https://osha.europa.eu/en/emerging-risks,?,https://osha.europa.eu/en/publications,pdf or PPT version. Cannot scrap from document
+Work Safe ACT,Regulation,https://www.worksafe.act.gov.au/,,"https://www.worksafe.act.gov.au/about-worksafe-act/news-and-media
+https://www.worksafe.act.gov.au/health-and-safety-portal/safety-alerts",
+WorkSafe NZ,Regulation,https://www.worksafe.govt.nz/,,https://www.worksafe.govt.nz/about-us/news-and-media/,
+Researchgate,Research,https://www.researchgate.net/ ,,https://www.researchgate.net/blog?_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6ImxvZ2luIiwicGFnZSI6ImluZGV4IiwicG9zaXRpb24iOiJnbG9iYWxGb290ZXIifX0,no updates since Dec 2022
+Centre for Workplace Excellence,Research Centre,https://www.unisa.edu.au/research/cwex/,Y,,
+International Labour ,Union ,https://www.labourstart.org/news/country.php?country=Australia&langcode=en ,,https://www.labourstart.org/news/country.php?country=Australia&langcode=en,
+OHS Alert ,WHS association,https://www.ohsalert.com.au/,,,
+Safety at Work Blog,WHS association,https://safetyatworkblog.com/,,https://safetyatworkblog.com/,need subcription
+NSCA Foundation,WHS association,https://www.nscafoundation.org.au/,N,https://www.nscafoundation.org.au/news/,
+AIHS - Australian Institute of Health and Safety,WHS association,https://www.aihs.org.au/news-and-publications/news,,https://www.aihs.org.au/Web/Web/Advocacy-Media/AIHS-Latest-News.aspx?hkey=89685a20-3770-49e0-b158-cca5a5d40186,
+Safety in Action,WHS association,https://www.safetyaction.com.au/blog,,https://www.safetyaction.com.au/blog,
+WHS matters,WHS association,https://whsmatters.com.au/blog/,,https://whsmatters.com.au/category/whs/,no updates since 2022
+Action OHS,WHS association,https://www.actionohs.com.au/ohs-newsletters/,,https://whsmatters.com.au/category/whs/,
+Transport Workers Union,Worker association,https://www.twu.com.au/,,https://www.twu.com.au/press/,
+Australian Workers Union,Worker association,https://www.awu.net.au/,,https://awu.net.au/news/,
+AMWU - manufacturing,Worker association,https://www.amwu.org.au/,,https://www.amwu.org.au/media_releases,no updates since 2023 Nov
+Australian Services Union,Worker association,http://www.asu.asn.au/,,http://www.asu.asn.au/news,
+NSW Nurses and Midwives Association,Worker association,https://www.nswnma.asn.au/,,,
+Nurses and Midwives,Worker association,https://www.nmsupport.org.au/,,https://www.nmsupport.org.au/news,
+Health Services Union,Worker association,https://www.hsu.asn.au/,,https://www.hsu.asn.au/stay-informed/all,
+Teachers Federation,Worker association,https://www.nswtf.org.au/,,https://www.nswtf.org.au/news/,
+Unions NSW,Worker association,https://www.unionsnsw.org.au/,,https://unionsnsw.org.au/our-work/media/,
+CFMMEU - Construction Forestry Maritime Mining and Energy Union,Worker association,https://www.cfmmeu.org.au/,,https://www.cfmmeu.org.au/news-centre,some are newspaper(jpg)
+UK IOSH,WHS Association,https://www.ioshmagazine.com/,,https://www.ioshmagazine.com/categories/article-types/news,
+UK IOSH,WHS Association,https://iosh.com/,,https://iosh.com/news-and-opinion,
+Agriculture = weekly times now,Industry news,https://www.weeklytimesnow.com.au/,Y,https://www.weeklytimesnow.com.au/search-results?q=work+health+and+safety,
